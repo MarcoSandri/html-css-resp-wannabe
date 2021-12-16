@@ -71,3 +71,75 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+
+
+
+
+
+@media all and (max-width: 419px) {
+  /* Generali */
+  h1 {
+    margin-top: 0px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  img {
+    height: 25vw;
+  }
+
+  #lezioni,
+  #why {
+    background-color: #f2f2cd;
+  }
+
+  /* Togliere i margini dal body */
+  body {
+    margin: 0;
+  }
+
+
+  /* Righe di contenuti */
+  .row {
+    width: 100%;
+    margin:0;
+    padding: 0.5em 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 90%;
+    float: none;
+    margin: 1em auto;
+  }  
+
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 90%;
+    margin: 1em auto;
+
+  }
+
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 90%;
+    margin-top: 80px;
+    margin:auto;
+  }
+
+  #why .row img {
+    height: calc(25vw / 2);
+    padding: calc(10vw / 2);
+  }
+  
+}
